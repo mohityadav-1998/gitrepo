@@ -40,7 +40,7 @@ public class admin extends HttpServlet {
 		{
 			RequestDispatcher rd=request.getRequestDispatcher("admin.html");
 			rd.include(request, response);
-			out.println("invalid id and pwd");
+			out.println("invalid id and Password, Please enter correct Id and password");
 		}
 			
 	}
